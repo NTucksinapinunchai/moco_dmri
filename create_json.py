@@ -8,8 +8,8 @@ base_dir = "Users/kenggkkeng/Desktop/SCT/moco_dmri/data-single-subject/"
 
 # Parameters for splitting
 train_ratio = 0.8
-val_ratio = 0.15
-test_ratio = 0.05
+val_ratio = 0.10
+test_ratio = 0.10
 
 # List all subject folders automatically
 all_subjects = [d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]
