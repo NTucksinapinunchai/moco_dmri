@@ -25,8 +25,8 @@ from monai.networks.nets import VoxelMorphUNet
 from monai.networks.blocks import Warp
 from datetime import datetime
 
-path = "/Users/kenggkkeng/Desktop/SCT/moco_dmri/"
-data_path = "/Users/kenggkkeng/Desktop/SCT/moco_dmri/data-single-subject/"
+path = "/home/ge.polymtl.ca/p122983/moco_dmri/"
+data_path = "/home/ge.polymtl.ca/p122983/moco_dmri/sourcedata/"
 sys.path.insert(0,data_path)
 json_path = os.path.join(data_path, 'dataset.json')
 
@@ -245,13 +245,13 @@ pretrained_ckpt = os.path.join(ckpt_dir, f"voxelmorph-best-weighted_{timestamp}.
 # -----------------------------
 # logger (Weights & Biases)
 # -----------------------------
-wandb_logger = WandbLogger(project="moco-dmri", name="VoxelMorphUNet")
+wandb_logger = WandbLogger(project="moco-dmri", name="1st_training")
 
-num_epochs = 50
+num_epochs = 200
 batch_size = 1
 lr = 1e-4
 lambda_smooth = 1.0
-num_workers = 0
+num_workers = 4
 
 wandb_logger.experiment.config.update(
     dict(
@@ -296,7 +296,7 @@ if __name__ == "__main__":
         max_epochs=num_epochs,
         logger=wandb_logger,
         callbacks=[checkpoint_cb, lr_monitor, early_stop],
-        accelerator="cpu",
+        accelerator="gpu",
         devices=1,
         log_every_n_steps=5,
         deterministic=False

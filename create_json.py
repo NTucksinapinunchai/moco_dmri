@@ -4,10 +4,10 @@ import random
 
 from glob import glob
 
-base_dir = "Users/kenggkkeng/Desktop/SCT/moco_dmri/data-single-subject/"
+base_dir = "/home/ge.polymtl.ca/p122983/moco_dmri/sourcedata/"
 
 # Parameters for splitting
-train_ratio = 0.8
+train_ratio = 0.80
 val_ratio = 0.10
 test_ratio = 0.10
 

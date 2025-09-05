@@ -5,7 +5,7 @@ import subprocess
 # ---------------------------
 # Load data
 # ---------------------------
-data_dir = "/Users/kenggkkeng/Desktop/SCT/moco_dmri/data-single-subject/"
+data_dir = "/home/ge.polymtl.ca/p122983/moco_dmri/sourcedata/"
 
 subfolders = sorted([f.path for f in os.scandir(data_dir) if f.is_dir()])
 # subfolders = [os.path.join(data_dir, "sub-mgh")]
