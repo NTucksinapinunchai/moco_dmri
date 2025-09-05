@@ -1,0 +1,22 @@
+2025-09-03 16:11:42,160 INFO    MainThread:16020 [wandb_setup.py:_flush():81] Current SDK version is 0.21.3
+2025-09-03 16:11:42,161 INFO    MainThread:16020 [wandb_setup.py:_flush():81] Configure stats pid to 16020
+2025-09-03 16:11:42,161 INFO    MainThread:16020 [wandb_setup.py:_flush():81] Loading settings from /Users/kenggkkeng/.config/wandb/settings
+2025-09-03 16:11:42,161 INFO    MainThread:16020 [wandb_setup.py:_flush():81] Loading settings from /Users/kenggkkeng/Desktop/SCT/moco_dmri/wandb/settings
+2025-09-03 16:11:42,161 INFO    MainThread:16020 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-03 16:11:42,161 INFO    MainThread:16020 [wandb_init.py:setup_run_log_directory():686] Logging user logs to ./wandb/run-20250903_161142-5yywr4jj/logs/debug.log
+2025-09-03 16:11:42,161 INFO    MainThread:16020 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to ./wandb/run-20250903_161142-5yywr4jj/logs/debug-internal.log
+2025-09-03 16:11:42,161 INFO    MainThread:16020 [wandb_init.py:init():813] calling init triggers
+2025-09-03 16:11:42,161 INFO    MainThread:16020 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-09-03 16:11:42,161 INFO    MainThread:16020 [wandb_init.py:init():854] starting backend
+2025-09-03 16:11:42,390 INFO    MainThread:16020 [wandb_init.py:init():857] sending inform_init request
+2025-09-03 16:11:42,408 INFO    MainThread:16020 [wandb_init.py:init():865] backend started and connected
+2025-09-03 16:11:42,411 INFO    MainThread:16020 [wandb_init.py:init():936] updated telemetry
+2025-09-03 16:11:42,412 INFO    MainThread:16020 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-03 16:11:42,989 INFO    MainThread:16020 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-03 16:11:43,097 INFO    MainThread:16020 [wandb_run.py:_console_start():2494] atexit reg
+2025-09-03 16:11:43,097 INFO    MainThread:16020 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-09-03 16:11:43,098 INFO    MainThread:16020 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-09-03 16:11:43,098 INFO    MainThread:16020 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-09-03 16:11:43,099 INFO    MainThread:16020 [wandb_init.py:init():1057] run started, returning control to user process
+2025-09-03 16:11:43,100 INFO    MainThread:16020 [wandb_run.py:_config_callback():1380] config_cb None None {'num_epochs': 50, 'batch_size': 1, 'lr': 0.0001, 'lambda_smooth': 1.0, 'data_path': '/Users/kenggkkeng/Desktop/SCT/moco_dmri/data-single-subject/'}

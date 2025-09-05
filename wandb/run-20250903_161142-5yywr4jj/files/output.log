@@ -1,0 +1,21 @@
+monai.networks.blocks.Warp: Using PyTorch native grid_sample.
+GPU available: True (mps), used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+GPU available but not used. You can set it by doing `Trainer(accelerator='gpu')`.
+The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+
+  | Name        | Type           | Params | Mode
+-------------------------------------------------------
+0 | unet        | VoxelMorphUNet | 194 K  | train
+1 | transformer | Warp           | 0      | train
+-------------------------------------------------------
+194 K     Trainable params
+0         Non-trainable params
+194 K     Total params
+0.777     Total estimated model params size (MB)
+74        Modules in train mode
+0         Modules in eval mode
+Epoch 0:   7%|▋         | 1/15 [00:50<11:49,  0.02it/s, v_num=r4jj, train_loss=8.35e+4]
+The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.
+The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.

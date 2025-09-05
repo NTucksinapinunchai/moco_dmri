@@ -1,0 +1,6 @@
+{"time":"2025-09-02T16:36:23.472011-04:00","level":"INFO","msg":"stream: starting","core version":"0.21.3"}
+{"time":"2025-09-02T16:36:23.663691-04:00","level":"INFO","msg":"stream: created new stream","id":"995ageac"}
+{"time":"2025-09-02T16:36:23.663871-04:00","level":"INFO","msg":"handler: started","stream_id":"995ageac"}
+{"time":"2025-09-02T16:36:23.663882-04:00","level":"INFO","msg":"stream: started","id":"995ageac"}
+{"time":"2025-09-02T16:36:23.664044-04:00","level":"INFO","msg":"sender: started","stream_id":"995ageac"}
+{"time":"2025-09-02T16:36:23.664044-04:00","level":"INFO","msg":"writer: started","stream_id":"995ageac"}
