@@ -4,7 +4,7 @@ import random
 
 from glob import glob
 
-base_dir = "PATH_TO_/moco_dmri/data-single-subject/"
+base_dir = "Users/kenggkkeng/Desktop/SCT/moco_dmri/data-single-subject/"
 
 # Parameters for splitting
 train_ratio = 0.8
